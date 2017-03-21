@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  transition: 0.3s; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+#header {
+  height: 8%;
+  width: 100%;
+  padding: 0 100px; }
+  #header #logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    overflow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
+    #header #logo:hover {
+      -webkit-transform: rotate(-30deg);
+      -moz-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+      transform: rotate(-30deg); }
+  #header #search {
+    float: left;
+    margin: 20px 0 20px 50px; }
+    #header #search input {
+      height: 30px;
+      width: 350px;
+      padding: 5px 5px 2px 15px;
+      font-size: 0.9em;
+      border: 0;
+      border-bottom: 1px solid black;
+      outline: none; }
+  #header #nav {
+    float: right;
+    height: 70px; }
+    #header #nav .nav-item {
+      line-height: 70px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      border-radius: 3px;
+      font-size: 0.8em;
+      font-weight: 300;
+      padding: 0.6em 2em;
+      margin-right: 5px; }
+      #header #nav .nav-item:hover {
+        background-color: black;
+        color: white; }
+
+#banner {
+  width: 100%;
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/car2.jpg");
+  color: white; }
+  #banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 4em; }
+  #banner h3 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2em; }
+
+#customer_cart {
+  width: 300px;
+  height: 80px;
+  position: fixed;
+  right: 100px;
+  bottom: 50px; }
+  #customer_cart #cart_button {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black; }
+    #customer_cart #cart_button i {
+      margin: auto;
+      width: 76px;
+      height: 76px;
+      text-align: center;
+      line-height: 76px;
+      font-size: 2em;
+      border-radius: 100%;
+      background-color: white; }
+  #customer_cart #customer_name {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 280px;
+    height: 40px;
+    padding: 2px;
+    background-color: black;
+    border-radius: 3px; }
+    #customer_cart #customer_name h4 {
+      height: 36px;
+      border-radius: 3px;
+      line-height: 36px;
+      text-align: center;
+      padding-right: 70px;
+      margin: 0;
+      font-weight: 300;
+      text-transform: uppercase;
+      background-color: white; }
+
+#page_content #welcome {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 50px; }
+#page_content .index-topics {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center; }
+#page_content .black {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.7); }
+
+#stores_holder {
+  display: inline-table;
+  width: 100%;
+  margin: auto;
+  padding: 10px 100px 10px 100px; }
+  #stores_holder .cards {
+    float: left;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 30px 0 30px 90px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(0.8);
+    background-image: url("../images/car3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; }
+    #stores_holder .cards:hover {
+      transform: scale(1.1); }
+
+.products_aside {
+  width: 80%;
+  height: 100%;
+  padding: 30px; }
+  .products_aside .products {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin: 10px 0 0px 30px; }
+  .products_aside .car1 {
+    background-image: url(images/car1.jpg);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+#footer {
+  clear: both;
+  text-align: center;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
